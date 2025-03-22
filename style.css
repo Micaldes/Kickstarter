@@ -1,7 +1,79 @@
-h1 {
-    color : red;
+*{
+    margin: 0;
 }
 
-.description {
-    color: green;
+body{
+    min-width: 500px;
+}
+
+p{
+    font-family: 'Poppins',sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 10hv;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+main{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 5vh;
+    background-color: rgb(32, 32, 32);
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer a{
+    color: rgb(164, 164, 164);
+}
+
+.card{
+    width: 80%;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
 }
